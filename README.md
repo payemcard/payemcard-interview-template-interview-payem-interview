@@ -6,6 +6,15 @@ Welcome to the PayEm Home Assignment! We're thrilled to have you here. This assi
 
 **Note:** For the backend portion of this assignment, please choose to implement either **Node.js** or **Python**, based on your preference.
 
+## What is a Request?
+
+In the context of this assignment, a **Request** refers to a financial transaction request within an organization. It can be one of the following types:
+
+1. **Purchase Request:** A request to obtain funds for buying something necessary for business operations.
+2. **Reimbursement Request:** A request to reimburse an employee for expenses already incurred on behalf of the company.
+
+These requests help streamline financial processes and ensure proper documentation and approval of expenditures.
+
 ## The Task
 
 In this assignment, you will be working on an application that handles a request object. You can find an example of this request object in `db.py` or `db.js`.
@@ -27,7 +36,6 @@ Your task is to enhance the existing application with both front-end and back-en
 - Add a new field to the Request object named `type`.
 - The `type` field can be one of the following:
   - **Purchase Request**
-  - **Fund Request**
   - **Reimbursement Request**
 
 ## Current App State
@@ -43,6 +51,10 @@ Here's an overview of the current application state:
 - **Backend**
   - Simulates a database using a file where all reads and writes are performed.
 
+## Note on Codebase
+
+The current code is just a boilerplate and can be modified to improve readability, performance, and overall quality. Feel free to refactor or restructure the code to better suit your implementation and demonstrate your skills.
+
 ## Repository Structure
 
 For your convenience, we have prepared a template to help you get started. The template includes the following folders:
@@ -56,7 +68,7 @@ For your convenience, we have prepared a template to help you get started. The t
 - **backend-python**
   - Backend code implemented in Python. Functionality is equivalent to the Node.js backend.
 
-## What are we looking in the solution
+## What Are We Looking for in the Solution?
 
 - **Readability:** Ensure that your code is clean and well-documented, making it easy to understand and maintain.
 - **Testing:** Consider writing tests (BE only) to verify the functionality of your implementation.
