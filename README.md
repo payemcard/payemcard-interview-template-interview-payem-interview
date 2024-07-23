@@ -61,7 +61,6 @@ For your convenience, we have prepared a template to help you get started. The t
 - **Readability:** Ensure that your code is clean and well-documented, making it easy to understand and maintain.
 - **Testing:** Consider writing tests (BE only) to verify the functionality of your implementation.
 - **Error Handling:** Implement proper error handling to ensure the application runs smoothly under various conditions.
-- **User Experience:** While styling is less emphasized, consider how the user experience can be enhanced through intuitive design and interactions.
 
 ---
 
