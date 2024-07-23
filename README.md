@@ -28,8 +28,8 @@ Your task is to enhance the existing application with both front-end and back-en
 ### 2. Request Details Page
 
 - When clicking on a request on the requests page, you will be directed to a new route.
-- Implement a form to display all fields of the request object.
-- Develop the front-end and back-end logic for approving or declining a request.
+- Implement an endpoint in the backend to fetch a single request by its ID
+- Implement the logic for approving or declining a request.
 
 ### 3. Extend Request Object
 
